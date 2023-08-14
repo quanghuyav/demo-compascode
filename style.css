@@ -59,14 +59,14 @@ body {
 
 .title {
     font-weight: 700;
-    font-size: 6vw;
+    font-size: 60px;
     color: white;
     text-transform: uppercase;
 }
 
 .name {
     font-weight: 700;
-    font-size: 8vw;
+    font-size: 80px;
     color: #fffdfd;
     text-transform: uppercase;
 }
@@ -77,10 +77,10 @@ body {
 
 .contact-title {
     font-weight: 400;
-    font-size: 2vw;
+    font-size: 20px;
     color: white;
     text-transform: uppercase;
-    margin-bottom: 4vw;
+    margin-bottom: 40px;
     text-align: center;
 }
 
@@ -98,7 +98,7 @@ body {
 }
 
 .social-item img {
-    width: 8vw;
+    width: 80px;
     cursor: pointer;
 }
 
@@ -108,7 +108,24 @@ body {
 
 .social-item .link {
     color: white;
-    font-size: 1.3vw;
-    margin-top: 0.8vw;
+    font-size: 13px;
+    margin-top: 8px;
     font-weight: bold;
+}
+
+
+@media (max-width : 670px) {
+    .title {
+        font-size: 45px;
+    }
+    .name {
+        font-size: 50px;
+    }
+    .social-item img {
+        width: 70px;
+    } 
+    .social-item .link {
+        display: none;
+    }
+
 }
