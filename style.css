@@ -59,14 +59,14 @@ body {
 
 .title {
     font-weight: 700;
-    font-size: 60px;
+    font-size: 6vw;
     color: white;
     text-transform: uppercase;
 }
 
 .name {
     font-weight: 700;
-    font-size: 80px;
+    font-size: 8vw;
     color: #fffdfd;
     text-transform: uppercase;
 }
@@ -77,10 +77,10 @@ body {
 
 .contact-title {
     font-weight: 400;
-    font-size: 20px;
+    font-size: 2vw;
     color: white;
     text-transform: uppercase;
-    margin-bottom: 40px;
+    margin-bottom: 4vw;
     text-align: center;
 }
 
@@ -98,7 +98,7 @@ body {
 }
 
 .social-item img {
-    width: 80px;
+    width: 8vw;
     cursor: pointer;
 }
 
@@ -108,7 +108,7 @@ body {
 
 .social-item .link {
     color: white;
-    font-size: 13px;
-    margin-top: 8px;
+    font-size: 1.3vw;
+    margin-top: 0.8vw;
     font-weight: bold;
 }
