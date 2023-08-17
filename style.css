@@ -55,6 +55,7 @@ body {
     align-items: center;
     justify-content: space-evenly;
     user-select: none;
+    width: 100%;
 }
 
 .title {
@@ -73,6 +74,9 @@ body {
 
 .contact {
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .contact-title {
@@ -86,15 +90,17 @@ body {
 
 .social {
     display: flex;
-    width: 100%;
     justify-content: space-between;
+    width: 800px;
+    flex-wrap: wrap;
+
 }
 
 .social-item {
     display: flex;
     flex-direction: column;
     align-items: center;
-    flex-basis: 33%;
+    flex-basis: 25%;
 }
 
 .social-item img {
@@ -114,18 +120,25 @@ body {
 }
 
 
-@media (max-width : 670px) {
+@media (max-width : 800px) {
     .title {
         font-size: 45px;
     }
     .name {
         font-size: 50px;
     }
+    .social{
+        width: 400px;
+    }
     .social-item img {
         width: 70px;
     } 
-    .social-item .link {
-        display: none;
+    .social-item {
+        flex-basis: 50%;
+        max-width: 50%;
+    }
+    .social-item .link{
+        margin-bottom: 30px;
     }
 
 }
